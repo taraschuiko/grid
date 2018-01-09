@@ -1,10 +1,15 @@
 .grid {
   padding-top: 60px; }
+  .grid .row {
+    margin-bottom: 0 !important; }
+  .grid-item {
+    margin-bottom: 40px; }
   .grid img {
     width: 100%; }
   .grid .row {
     margin-bottom: 40px; }
-  .grid .up {
-    margin-top: -160px; }
+  @media (min-width: 540px) {
+    .grid .up {
+      margin-top: -160px; } }
 
 /*# sourceMappingURL=style.css.map */

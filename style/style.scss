@@ -1,6 +1,14 @@
 .grid {
 	padding-top: 60px;
 	
+	.row {
+		margin-bottom: 0 !important;
+	}
+	
+	&-item {
+		margin-bottom: 40px;
+	}
+	
 	img {
 		width: 100%;
 	}
@@ -10,6 +18,8 @@
 	}
 
 	.up {
-		margin-top: -160px;
+		@media (min-width: 540px) {
+			margin-top: -160px;
+		}
 	}
 }
