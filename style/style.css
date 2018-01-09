@@ -6,8 +6,6 @@
     margin-bottom: 40px; }
   .grid img {
     width: 100%; }
-  .grid .row {
-    margin-bottom: 40px; }
   @media (min-width: 540px) {
     .grid .up {
       margin-top: -160px; } }
