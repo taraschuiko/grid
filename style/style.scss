@@ -1,21 +1,41 @@
+body {
+	background: #EDEFEE;
+}
+
 .grid {
 	padding-top: 40px;
 	
 	.row {
-		margin-bottom: 0 !important;
+		margin-bottom: 0;
 	}
 	
 	&-item {
-		margin-bottom: 40px;
-	}
-	
-	img {
-		width: 100%;
+		margin-bottom: 80px;
+		color: inherit;
+		
+		&:hover {
+			color: inherit;
+			text-decoration: none;
+		}
+		
+		img {
+			width: 100%;
+		}
+
+		p {
+			text-transform: uppercase;
+		}
 	}
 
 	.up {
 		@media (min-width: 540px) {
 			margin-top: -160px;
+		}
+	}
+
+	.up-2 {
+		@media (min-width: 540px) {
+			margin-top: -320px;
 		}
 	}
 }
